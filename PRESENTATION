@@ -1,40 +1,221 @@
 
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Sheets | Group 3</title>
 
-# 📊 Google Sheets
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-*Midterm Presentation · Group 3*
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f8f5;
+      color: #26352b;
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
 
----
+    .container {
+      max-width: 760px;
+      margin: auto;
+    }
 
-A concise introduction to Google Sheets and its role in organizing, analyzing, and presenting data efficiently.
+    .card {
+      background: white;
+      border: 1px solid #e1e9e1;
+      border-radius: 18px;
+      padding: 40px;
+      box-shadow: 0 8px 30px rgba(35, 90, 50, 0.06);
+    }
 
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white)
-![Academic](https://img.shields.io/badge/Academic-Presentation-4285F4?style=flat-square)
+    .label {
+      display: inline-block;
+      background: #e5f4e8;
+      color: #188038;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
 
-</div>
+    h1 {
+      margin-top: 20px;
+      font-size: 36px;
+      line-height: 1.2;
+    }
 
-## Overview
+    .subtitle {
+      color: #188038;
+      margin-top: 10px;
+      font-size: 15px;
+    }
 
-This presentation explores the essential features and practical applications of **Google Sheets**, from basic spreadsheet operations to data analysis and collaboration.
+    .divider {
+      border: 0;
+      border-top: 1px solid #e5ebe5;
+      margin: 28px 0;
+    }
 
-**Topics covered**
-- Spreadsheet interface and cell references
-- Formulas and functions
-- Data organization and visualization
-- Formatting and validation
-- Sharing and collaboration
+    h2 {
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
 
-## Presentation
+    p {
+      color: #5c6b60;
+      font-size: 15px;
+    }
 
-📄 [**View the Google Sheets Presentation (PDF)**](./Activity-4-Google-Sheets-Presentation.pdf)
+    .topics {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-top: 18px;
+    }
 
----
+    .topic {
+      background: #f6faf6;
+      border: 1px solid #e5eee5;
+      padding: 14px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
 
-<div align="center">
+    .number {
+      color: #188038;
+      font-weight: bold;
+      margin-right: 8px;
+    }
 
-<sub>GROUP 3 · MIDTERM PRESENTATION</sub>
+    .file-link {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 12px 18px;
+      background: #188038;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: bold;
+    }
 
-*Organize better. Analyze smarter.*
+    .file-link:hover {
+      background: #12652b;
+    }
 
-</div>
+    footer {
+      text-align: center;
+      color: #829087;
+      font-size: 12px;
+      margin-top: 25px;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 520px) {
+      .card {
+        padding: 25px;
+      }
+
+      h1 {
+        font-size: 29px;
+      }
+
+      .topics {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <section class="card">
+
+      <span class="label">MIDTERM PRESENTATION</span>
+
+      <h1>Google Sheets</h1>
+
+      <div class="subtitle">
+        Group 3 · Spreadsheet Applications
+      </div>
+
+      <hr class="divider">
+
+      <h2>About this presentation</h2>
+
+      <p>
+        This presentation introduces Google Sheets, a web-based
+        spreadsheet application used to organize data, perform
+        calculations, analyze information, and collaborate
+        efficiently. It explores essential tools and practical
+        applications in academic, professional, and everyday settings.
+      </p>
+
+      <hr class="divider">
+
+      <h2>What you'll explore</h2>
+
+      <div class="topics">
+        <div class="topic">
+          <span class="number">01</span>
+          Interface & Cell References
+        </div>
+
+        <div class="topic">
+          <span class="number">02</span>
+          Formulas & Functions
+        </div>
+
+        <div class="topic">
+          <span class="number">03</span>
+          Charts & Data Analysis
+        </div>
+
+        <div class="topic">
+          <span class="number">04</span>
+          Formatting & Validation
+        </div>
+
+        <div class="topic">
+          <span class="number">05</span>
+          Sharing & Collaboration
+        </div>
+
+        <div class="topic">
+          <span class="number">06</span>
+          Practical Applications
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <h2>Presentation material</h2>
+
+      <p>
+        Access the original presentation in PDF format below.
+      </p>
+
+      <a
+        class="file-link"
+        href="./Activity-4-Google-Sheets-Presentation.pdf"
+      >
+        View Presentation ↗
+      </a>
+
+    </section>
+
+    <footer>
+      GROUP 3 · MIDTERM PRESENTATION
+      <br>
+      Organize better. Analyze smarter.
+    </footer>
+  </main>
+</body>
+</html>
